@@ -7,6 +7,9 @@
 * [Default.aspx.cs](./CS/ExampleE1340/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ExampleE1340/Default.aspx.vb))
 <!-- default file list end -->
 # How to dynamically load a control that supports callbacks into another control on callback
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1340/)**
+<!-- run online end -->
 
 
 <p>This sample demonstrates how to dynamically load a control that supports callbacks into another control on callback.<br />
