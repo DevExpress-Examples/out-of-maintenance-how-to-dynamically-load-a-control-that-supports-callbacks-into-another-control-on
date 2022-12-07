@@ -1,5 +1,5 @@
 <%@ Control Language="vb" AutoEventWireup="true" CodeFile="DataViewUserControl.ascx.vb" Inherits="DataViewUserControl" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxDataView"
+<%@ Register Assembly="DevExpress.Web.v15.1" Namespace="DevExpress.Web"
 	TagPrefix="dxdv" %>
 <dxdv:ASPxDataView ID="ASPxDataView1" runat="server" DataSourceID="AccessDataSource1"
 	Width="1000px" Height="700px">

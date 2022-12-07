@@ -13,7 +13,7 @@ Partial Public Class _Default
 			End If
 		End If
 	End Sub
-	Protected Sub ASPxCallbackPanel1_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub ASPxCallbackPanel1_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		If e.Parameter = "Show" Then
 			LoadUserControl()
 			Session("Loaded") = True

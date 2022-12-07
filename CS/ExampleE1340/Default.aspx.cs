@@ -11,7 +11,7 @@ public partial class _Default: System.Web.UI.Page {
             }
         }
     }
-    protected void ASPxCallbackPanel1_Callback(object source, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+    protected void ASPxCallbackPanel1_Callback(object source, DevExpress.Web.CallbackEventArgsBase e) {
         if (e.Parameter == "Show") {
             LoadUserControl();
             Session["Loaded"] = true;
